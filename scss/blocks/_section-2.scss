@@ -1,0 +1,23 @@
+.section-2{
+    width: 974px;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+    background-image: url(../../images/icons/kokchiziq.png);
+    background-size: cover;
+    &__list1{
+        margin-top: 208px;
+        
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        align-items: center;
+        margin-left: 180px;
+        justify-content: space-between;
+    }
+}
